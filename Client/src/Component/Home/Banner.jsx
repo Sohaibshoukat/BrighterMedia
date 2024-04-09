@@ -54,8 +54,8 @@ const Banner = () => {
                         </a>
                     </div>
                 </div>
-                <div className="basis-[40%] w-[100%] h-96">
-                    <img src="./Assets/BannerMobile.png" alt="" className='object-contain h-[100%] md:h-[200px] lg:h-[100%] w-[100%]' />
+                <div className="basis-[40%] w-[100%] h-[500px]">
+                    <img src="./Assets/BannerMobile2.gif" alt="" className='object-contain h-[100%] md:h-[200px] lg:h-[100%] w-[100%]' />
                 </div>
             </div>
             <div className="w-[90%] m-auto flex flex-col md:flex-row gap-10 mt-10 mb-20 items-center">
