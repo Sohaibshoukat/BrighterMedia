@@ -1,0 +1,4 @@
+.from-black {
+    --tw-gradient-from: #000;
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, transparent);
+}

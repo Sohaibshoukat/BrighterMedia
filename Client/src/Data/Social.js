@@ -1,0 +1,88 @@
+import { AiOutlineFacebook, AiOutlineInstagram, AiOutlineLinkedin } from "react-icons/ai";
+import { RiTiktokLine } from "react-icons/ri";
+
+export const SocialData=[
+    {
+        ICON:AiOutlineFacebook,
+        LINK:"http://facebook.com/brightermediame"
+    },
+    {
+        ICON:AiOutlineLinkedin,
+        LINK:"http://linkedin.com/brightermediame"
+    },
+    {
+        ICON:RiTiktokLine,
+        LINK:"http://tiktok.com/brightermediame"
+    },
+    {
+        ICON:AiOutlineInstagram,
+        LINK:"http://instagram.com/brightermediame"
+    },
+]
+
+export const BrandData=[
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+    {
+        src:"./Assets/Brand/brand2.png"
+    },
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+    {
+        src:"./Assets/Brand/brand2.png"
+    },
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+    {
+        src:"./Assets/Brand/brand2.png"
+    },
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+    {
+        src:"./Assets/Brand/brand2.png"
+    },
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+    {
+        src:"./Assets/Brand/brand2.png"
+    },
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+    {
+        src:"./Assets/Brand/brand2.png"
+    },
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+    {
+        src:"./Assets/Brand/brand2.png"
+    },
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+    {
+        src:"./Assets/Brand/brand2.png"
+    },
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+    {
+        src:"./Assets/Brand/brand2.png"
+    },
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+    {
+        src:"./Assets/Brand/brand2.png"
+    },
+    {
+        src:"./Assets/Brand/brand1.png"
+    },
+
+]
