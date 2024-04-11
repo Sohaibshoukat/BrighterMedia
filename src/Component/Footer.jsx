@@ -1,4 +1,6 @@
-import React from 'react'
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable no-undef */
+/* eslint-disable react/jsx-key */
 import { FaArrowRight, FaFacebook, FaInstagram, FaTwitter, FaYoutube } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { SocialData } from '../Data/Social'
@@ -45,16 +47,16 @@ const Footer = () => {
                                 <Link to={"/contact"}>
                                     <div className="flex flex-row hover:flex-row-reverse justify-start w-fit ease-in-out duration-1000">
                                         <div className='
-                                bg-black font-pop 
-                                text-white flex items-center gap-2 
+                                bg-black font-pop
+                                text-white flex items-center gap-2
                                 text-lg w-fit rounded-full font-normal py-2 px-4
                                 hover:bg-accence  duration-300 ease-in-out
                             '>
                                             Let's Chat
                                         </div>
                                         <div className='
-                                bg-black font-pop 
-                                text-white flex items-center gap-2 
+                                bg-black font-pop
+                                text-white flex items-center gap-2
                                 text-lg w-fit rounded-full font-normal py-2 px-4
                                 hover:bg-accence  duration-300 ease-in-out
                             '>
@@ -75,11 +77,11 @@ const Footer = () => {
                                 <input
                                     type="email"
                                     placeholder='Email'
-                                    className='bg-gray-700 py-2 px-4 placeholder:text-slate-200 rounded-full text-lg'
+                                    class='max-w-220 mx-auto bg-gray-700 py-2 px-4 placeholder-text-slate-200 rounded-full text-lg'
                                 />
                                 <div className='
-                                bg-white font-pop 
-                                text-black flex items-center gap-2 
+                                bg-white font-pop
+                                text-black flex items-center gap-2
                                 text-lg w-fit rounded-full font-normal py-2 px-3
                                 hover:bg-primary  duration-300 ease-in-out hover:scale-95
                             '>
@@ -88,7 +90,8 @@ const Footer = () => {
                             </div>
                             <img src="./Logo.png" alt="" className='w-[75px]' />
                             <div className="flex flex-row gap-1">
-                                {SocialData.map((item, index) => (
+                                {SocialData.map((item) => (
+                                    // eslint-disable-next-line react/jsx-key
                                     <div className="bg-white p-2 rounded-full text-xl">
                                         <Link to={item.LINK}>
                                             <item.ICON className='text-black/70 text-2xl' />
@@ -97,10 +100,10 @@ const Footer = () => {
                                 ))}
                             </div>
                         </div>
-                        <div className="basis-[20%]">
+                        <div className="basis-[20%] ml-4 sm:ml-6 md:ml-8">
                             <h4 className='font-pop text-sm text-gray-400 mb-6'>Our Services</h4>
-                            <div className="flex flex-col gap-1">
-                                {OurService.map((item, index) => (
+                            <div className="flex flex-col gap-1 ">
+                                {OurService.map((item) => (
                                     <Link to={item.Link} onClick={() => {
                                         setDisplay(true);
                                         setTimeout(() => {
@@ -108,8 +111,8 @@ const Footer = () => {
                                         }, 50);
                                     }}>
                                         <h1 className={`
-                                            font-normal text-base py-0 hover:border-b-2 border-black 
-                                            font-pop ease-in-out duration-300 
+                                            font-normal text-base py-0 hover:border-b-2 border-black
+                                            font-pop ease-in-out duration-300
                                             ${window.location.pathname === item.Link ? "border-b-2" : "text-white"}`
                                         }
                                         >
@@ -122,7 +125,7 @@ const Footer = () => {
                         <div className="basis-[20%]">
                             <h4 className='font-pop text-sm text-gray-400 mb-6'>Company</h4>
                             <div className="flex flex-col gap-1">
-                                {NavMenu.map((item, index) => (
+                                {NavMenu.map((item) => (
                                     <Link to={item.Link} onClick={() => {
                                         setDisplay(true);
                                         setTimeout(() => {
@@ -130,8 +133,8 @@ const Footer = () => {
                                         }, 50);
                                     }}>
                                         <h1 className={`
-                                            font-normal text-base py-0 hover:border-b-2 border-black 
-                                            font-pop ease-in-out duration-300 
+                                            font-normal text-base py-0 hover:border-b-2 border-black
+                                            font-pop ease-in-out duration-300
                                             ${window.location.pathname === item.Link ? "border-b-2" : "text-white"}`
                                         }
                                         >
@@ -148,8 +151,8 @@ const Footer = () => {
                                     <div className='flex flex-row gap-2' key={index}>
                                         <item.Icon className='text-primary text-2xl' />
                                         <h1 className={`
-                                            font-normal text-base py-0 hover:border-b-2 border-black 
-                                            font-pop ease-in-out duration-300 
+                                            font-normal text-base py-0 hover:border-b-2 border-black
+                                            font-pop ease-in-out duration-300
                                             ${window.location.pathname === item.Link ? "border-b-2" : "text-white"}`
                                         }
                                         >
@@ -162,11 +165,10 @@ const Footer = () => {
                     </div>
                     <div className="my-4 flex flex-row justify-between font-pop text-sm text-gray-500 px-20">
                         <div className="flex flex-row gap-6">
-                            <h2>©2024 The Brigther Media </h2>
+                            <h2>©2024 The Brighter Media </h2>
                             <h2>All rights reserved</h2>
                             <h2>Privacy Policy</h2>
                         </div>
-                        <div>Website MadeByShape</div>
                     </div>
                 </div>
             </div>

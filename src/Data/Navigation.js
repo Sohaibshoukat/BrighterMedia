@@ -6,15 +6,15 @@ import { IoCallOutline } from "react-icons/io5"
 export const NavMenu=[
     {
         Name:"Our Services",
-        Link:"#service"
+        Link:"/#service"
     },
     {
         Name:"Case Studies",
-        Link:"#casestudy"
+        Link:"/#casestudy"
     },
     {
         Name:"About Us",
-        Link:"#aboutus"
+        Link:"/#aboutus"
     }
 ]
 

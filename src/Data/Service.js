@@ -7,7 +7,8 @@ export const servicedata=[
             "UGC to High-Production",
             "Creative Strategy, Art Direction & Campaigns",
             " Motion Design, Animation and Graphics"
-        ]
+        ],
+        learn:"Learn More About Creative"
     },
     {
         head:"Influencer",
@@ -17,7 +18,8 @@ export const servicedata=[
             " Brand Awareness and Direct-Response Objectives",
             " Content Creators for UGC Content",
             " Wrap Reports and Analysis"
-        ]
+        ],
+        learn:"Learn More About Influencer"
     },
     {
         head:"Paid",
@@ -27,7 +29,8 @@ export const servicedata=[
             " Full-Funnel Media Strategy",
             " Planning, Buying, Creative, Analytics, Testing and more.",
             " Feed Optimisation & Shopping"
-        ]
+        ],
+        learn:"Learn More About Paid"
     },
     {
         head:"Social",
@@ -37,6 +40,7 @@ export const servicedata=[
             " Channel and Community Management",
             " Social-first Content Creation",
             " Social Listening & Insights"
-        ]
+        ],
+        learn:"Learn More About Social"
     },
 ]

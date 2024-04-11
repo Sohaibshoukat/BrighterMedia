@@ -30,8 +30,8 @@ const Nav = () => {
                             }, 50);
                         }}>
                             <h1 className={`
-                                font-normal text-lg py-0 px-4 hover:border-b-2 border-black 
-                                font-pop ease-in-out duration-300 
+                                font-normal text-lg py-0 px-4 hover:border-b-2 border-black
+                                font-pop ease-in-out duration-300
                                 ${window.location.pathname === item.Link ? "border-b-2" : "text-black"}`
                             }
                             >
@@ -42,16 +42,16 @@ const Nav = () => {
                     <Link to={"/contact"}>
                         <div className="flex flex-row hover:flex-row-reverse ease-in-out duration-300">
                             <div className='
-                                bg-primary font-pop 
-                                text-black flex items-center gap-2 
+                                bg-primary font-pop
+                                text-black flex items-center gap-2
                                 text-lg w-fit rounded-full font-normal py-2 px-4
                                 hover:bg-accence  duration-300 ease-in-out
                             '>
                                 Get In Touch
                             </div>
                             <div className='
-                                bg-primary font-pop 
-                                text-black flex items-center gap-2 
+                                bg-primary font-pop
+                                text-black flex items-center gap-2
                                 text-lg w-fit rounded-full font-normal py-2 px-4
                                 hover:bg-accence  duration-300 ease-in-out
                             '>
@@ -79,8 +79,8 @@ const Nav = () => {
                             <div className={`flex flex-col gap-2 nd:gap-4 justify-center `}>
                                 {NavMenu.map((item, index) => (
                                     <a href={item.Link} onClick={() => { setMobileMenu(false) }}>
-                                        <h1 className={` 
-                                                font-pop text-black font-normal text-2xl md:text-4xl py-2 px-4 hover:bg-accence hover:text-primary 
+                                        <h1 className={`
+                                                font-pop text-black font-normal text-2xl md:text-4xl py-2 px-4 hover:bg-accence hover:text-primary
                                                 ease-in-out duration-300 rounded-lg ${window.location.pathname == item.Link && "bg-accence text-primary"}
                                             `}>
                                                 {item.Name}
@@ -90,16 +90,16 @@ const Nav = () => {
                                 <Link to={"/contact"} className='xl:hidden md:block'>
                                     <div className="flex flex-row hover:flex-row-reverse ease-in-out duration-300">
                                         <div className='
-                                            bg-black font-pop 
-                                            text-white flex items-center gap-2 
+                                            bg-black font-pop
+                                            text-white flex items-center gap-2
                                             text-2xl md:text-4xl w-fit rounded-full font-normal py-2 px-4
                                             hover:bg-accence  duration-300 ease-in-out
                                         '>
                                             Get In Touch
                                         </div>
                                         <div className='
-                                            bg-black font-pop 
-                                            text-white flex items-center gap-2 
+                                            bg-black font-pop
+                                            text-white flex items-center gap-2
                                             text-2xl md:text-4xl w-fit rounded-full font-normal py-2 px-4
                                             hover:bg-accence  duration-300 ease-in-out
                                         '>

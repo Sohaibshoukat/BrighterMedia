@@ -48,20 +48,20 @@ const Contact = () => {
                         <div className="flex flex-col gap-2 my-2">
                             <p className='text-sm font-light'>Which region are you looking for support in?</p>
                             <div className="flex flex-row justify-between gap-1">
-                                <div className="bg-white rounded-full w-full text-center hover:border-primary border-2 border-transparent ease-in-out duration-300 py-2 px-2">
-                                    UK
-                                </div>
-                                <div className="bg-white rounded-full w-full text-center hover:border-primary border-2 border-transparent ease-in-out duration-300 py-2 px-2">
+                                <div className="bg-white rounded-full w-full text-center pt-5 hover:border-primary border-2 border-transparent ease-in-out duration-300 py-2 px-2">
                                     UAE
                                 </div>
-                                <div className="bg-white rounded-full w-full text-center hover:border-primary border-2 border-transparent ease-in-out duration-300 py-2 px-2">
+                                <div className="bg-white rounded-full w-full text-center  hover:border-primary border-2 border-transparent ease-in-out duration-300 py-2 px-2">
+                                    Middle East
+                                </div>
+                                <div className="bg-white rounded-full w-full text-center pt-5 hover:border-primary border-2 border-transparent ease-in-out duration-300 py-2 px-2">
                                     EUROPE
                                 </div>
-                                <div className="bg-white rounded-full w-full text-center hover:border-primary border-2 border-transparent ease-in-out duration-300 py-2 px-2">
-                                    UK
+                                <div className="bg-white rounded-full w-full text-center pt-5 hover:border-primary border-2 border-transparent ease-in-out duration-300 py-2 px-2">
+                                    US
                                 </div>
-                                <div className="bg-white rounded-full w-full text-center hover:border-primary border-2 border-transparent ease-in-out duration-300 py-2 px-2">
-                                    UK
+                                <div className="bg-white rounded-full w-full text-center pt-5 hover:border-primary border-2 border-transparent ease-in-out duration-300 py-2 px-2">
+                                    Asia
                                 </div>
                             </div>
                         </div>
@@ -69,11 +69,10 @@ const Contact = () => {
                             <p className='text-sm font-light'>How did you hear about us? *</p>
                             <select name="" id="" className='bg-white rounded-full py-3 px-4 text-base placeholder:text-black basis-[50%]'>
                                 <option value="">Choose a reason</option>
-                                <option value="">Google/Organic Search</option>
-                                <option value="">Google/Organic Search</option>
-                                <option value="">Google/Organic Search</option>
-                                <option value="">Google/Organic Search</option>
-                                <option value="">Google/Organic Search</option>
+                                <option value="">Google Search</option>
+                                <option value="">Refellow</option>
+                                <option value="">Advertising</option>
+                                <option value="">Code Call</option>
                             </select>
                         </div>
                         <div className="flex flex-col gap-2 my-2">
